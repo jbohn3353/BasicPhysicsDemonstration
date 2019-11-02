@@ -15,13 +15,13 @@ import javax.swing.Timer;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
-public class Test {
+public class PhysicsDemonstration {
 
     public static void main(String[] args) {
-        new Test();
+        new PhysicsDemonstration();
     }
 
-    public Test() {
+    public PhysicsDemonstration() {
         EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
